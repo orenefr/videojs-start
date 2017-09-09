@@ -1,0 +1,315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"sea",
+				"searchResultForamt"
+			],
+			[
+				"retr",
+				"return"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"res",
+				"restaurants"
+			],
+			[
+				"r",
+				"route"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/orene/Desktop/advance/smallserver/api/routes/carPoolRoutes.js",
+		"/C/Users/orene/Desktop/advance/smallserver/server.js",
+		"/C/Users/orene/Desktop/advance/smallserver/api/models/carPoolModel.js",
+		"/C/Users/orene/Desktop/advance/smallserver/api/controllers/carPoolController.js",
+		"/C/Users/orene/Desktop/advance/smallserver/api/models/carPollModel.js",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/MakeMeCompile.vcxproj",
+		"/C/Users/orene/Desktop/advance/FE-training/index.html",
+		"/C/Users/orene/Desktop/advance/FE-training/withServer/server.js",
+		"/C/Users/orene/Desktop/advance/FE-training/fun.js",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/Encryption.cpp",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/MakeMeCompileMain.cpp",
+		"/C/Users/orene/Downloads/help.js",
+		"/C/Users/orene/Downloads/fas",
+		"/C/Users/orene/Downloads/fas22",
+		"/C/Users/orene/Documents/frontend training/cp/login.js",
+		"/C/Users/orene/Documents/frontend training/cp/login.css",
+		"/C/Users/orene/Documents/frontend training/cp/login(1).js",
+		"/C/Users/orene/Documents/frontend training/cp/cp.html",
+		"/C/Users/orene/Downloads/test2/MainWindow.vb",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/Encryption.h",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/TopSecretLib.h",
+		"/C/Users/orene/Downloads/password_hint",
+		"/C/Users/orene/Downloads/help1.txt",
+		"/C/Users/orene/AppData/Local/Google/Chrome/User Data/Default/Cookies",
+		"/C/Users/orene/Downloads/Homebase_1_can_you_code/TopSecretLibRelease.lib",
+		"/C/Users/orene/Desktop/advance/FE-training/mystyle.css",
+		"/C/Users/orene/Desktop/advance/FE-training/withServer/public/fun.js",
+		"/C/Users/orene/Desktop/advance/FE-training/withServer/package.json",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/server.js",
+		"/C/Users/orene/Desktop/advance/FE-training/‏‏‫מסמך טקסט ‫חדש.txt",
+		"/C/Users/orene/Desktop/advance/hangmanes6/src/controller/canvasService.js",
+		"/C/Users/orene/Desktop/nodejsTraining/server.js",
+		"/C/Users/orene/Documents/frontend training/script.js",
+		"/C/Users/orene/Downloads/chat-nodejs/app.js",
+		"/C/Users/orene/Desktop/advance/searchtool/searchTool/package.json",
+		"/C/Users/orene/Desktop/advance/searchtool/searchTool/src/controller/searchES6version.js",
+		"/C/Users/orene/Desktop/advance/hangmanes6/package.json",
+		"/C/Users/orene/Documents/frontend training/searchtool/es6script.js",
+		"/C/Users/orene/Documents/frontend training/searchtool/index.html",
+		"/C/Users/orene/Documents/frontend training/searchtool/search.css",
+		"/C/Users/orene/Documents/frontend training/searchtool/es6script-compiled.js",
+		"/C/Users/orene/Documents/frontend training/searchtool/script.js",
+		"/C/Users/orene/Desktop/advance/searchtool/searchTool/webpack.config.js",
+		"/C/Users/orene/Documents/frontend training/searchtool/script-compiled.js",
+		"/C/Users/orene/Documents/frontend training/searchtool/ .babelrc",
+		"/C/Users/orene/Documents/frontend training/pink.css",
+		"/C/Users/orene/Documents/frontend training/dropdown.css",
+		"/C/Users/orene/Documents/frontend training/mycss.css",
+		"/C/Users/orene/Documents/frontend training/index.html",
+		"/C/Users/orene/Downloads/check.php",
+		"/C/Users/orene/Downloads/latest.php",
+		"/C/Users/orene/Downloads/check (1).xml",
+		"/C/Users/orene/Documents/frontend training/‏‏‫מסמך טקסט ‫חדש.txt",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/public/app.js",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/public/index.html",
+		"/C/Users/orene/workspace/myChatApp/server.js",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/index.html",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/requestHandlers.js",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/index.js",
+		"/C/Users/orene/Desktop/advance/nodejsAndMongodb/router.js",
+		"/C/Users/orene/Desktop/advance/index.js",
+		"/C/Users/orene/Downloads/chat-nodejs/angular.min.js",
+		"/C/Users/orene/workspace/chat-example/WebContent/server/server.js",
+		"/C/Users/orene/Desktop/nodejsTraining/router.js",
+		"/C/Users/orene/Desktop/nodejsTraining/index.js",
+		"/C/Users/orene/Desktop/nodejsTraining/data.json.txt",
+		"/C/Users/orene/Desktop/nodejsTraining/requestHandlers.js",
+		"/C/Users/orene/workspace/chat-example/WebContent/server/package.json",
+		"/C/Users/orene/workspace/chat-example/server.js",
+		"/C/Users/orene/Downloads/chat-nodejs/index.html",
+		"/C/Users/orene/Desktop/advance/style.css",
+		"/C/Users/orene/Desktop/advance/index.html"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list_all_carpools",
+			"Task",
+			"\\\\n",
+			"'\\n'",
+			" \\n",
+			" ",
+			"' '",
+			"\" \"",
+			"v14",
+			"<html>\n<head>\n<title>future cookie</title>\n</head>\n<body>\n<body>\n</html>",
+			"searchResult",
+			"background",
+			"color",
+			"word",
+			"counter",
+			"space",
+			"beginPath",
+			"drawArray",
+			"lives",
+			"check",
+			"add",
+			"orderListChoises",
+			"exec",
+			"))"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CarPool",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
