@@ -17,10 +17,12 @@
   ],
   "author": "oren",
   "license": "MIT",
-   "dependencies": {
+  "dependencies": {
     "babel-runtime": "^6.20.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "videojs-contrib-hls": "^5.10.1",
+    "videojs-flash": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -41,8 +43,10 @@
     "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.8.0",
+    "json-loader": "^0.5.7",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
     "video.js": "^6.2.7",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"

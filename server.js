@@ -6,7 +6,7 @@ new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
   historyApiFallback: true
-}).listen(5000, 'localhost', (err) => {
+}).listen(5000, '192.168.103.73', (err) => {
   if (err) {
     console.log(err);
   }

@@ -70,14 +70,25 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['babel'],
-        include: path.join(__dirname, 'scripts')
+        loader: 'babel',
+        include: path.join(__dirname, 'scripts'),
+        query: {
+              presets: ['es2015', 'react']
+        }
       },
       {
         test: /\.css$/,
         loader: "style-loader!css-loader"
       },
-      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
-    ]
+      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
+        {
+            test: /\.json$/,
+            loader: 'json-loader'
+        }
+    ],
+      noParse: [
+         '/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.js',
+      ]
+
   }
 };

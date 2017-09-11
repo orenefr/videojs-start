@@ -2,6 +2,9 @@ import React from 'react';
 import videojs from 'video.js';
 import '../node_modules/video.js/dist/video-js.css';
 import VjsCuepoints from './vjsCuepoints.js';
+// import '../node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.js';
+// import video from 'videojs-contrib-hls';
+// import 'videojs-flash';
 
 export default class VideoPlayer extends React.Component {
 
@@ -14,7 +17,11 @@ export default class VideoPlayer extends React.Component {
 
   componentDidMount() {
     // instantiate Video.js
-    this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
+      //hls options
+      let options = {hls: {
+          withCredentials: true
+      }};
+    this.player = videojs(this.videoNode, {flash: options, html5: options}, function onPlayerReady() {
       console.log('onPlayerReady', this);
           this.cuepoints();
     this.addCuepoint({
@@ -24,7 +31,7 @@ export default class VideoPlayer extends React.Component {
       onStart: function(params){
         if(params.error){
           console.error("Error at second 0");
-        }else{
+        } else {
           console.log("Log at second 0");
         }
       },

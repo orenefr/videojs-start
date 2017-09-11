@@ -1,3 +1,133 @@
+
+<!--<html>-->
+<!--<head>-->
+    <!--<meta charset=utf-8 />-->
+    <!--<title>videojs-contrib-hls embed</title>-->
+
+    <!--&lt;!&ndash;-->
+
+    <!--Uses the latest versions of video.js and videojs-contrib-hls.-->
+
+    <!--To use specific versions, please change the URLs to the form:-->
+
+    <!--<link href="https://unpkg.com/video.js@5.16.0/dist/video-js.css" rel="stylesheet">-->
+    <!--<script src="https://unpkg.com/video.js@5.16.0/dist/video.js"></script>-->
+    <!--<script src="https://unpkg.com/videojs-contrib-hls@4.1.1/dist/videojs-contrib-hls.js"></script>-->
+
+    <!--&ndash;&gt;-->
+
+    <!--<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">-->
+    <!--<script src="https://unpkg.com/video.js/dist/video.js"></script>-->
+    <!--<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>-->
+    <!--<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>-->
+
+
+    <!--<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>-->
+
+    <!--<script src="https://rawgithub.com/spchuang/videojs-markers/master/dist/videojs-markers.js"></script>-->
+    <!--<link href="https://rawgithub.com/spchuang/videojs-markers/master/dist/videojs.markers.css" rel="stylesheet">-->
+
+
+    <!--&lt;!&ndash; disableProgress&ndash;&gt;-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Video.js Example Embed</h1>-->
+
+<!--<video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="640" height="268"-->
+       <!--data-setup='{}'>-->
+
+    <!--<source src="http://t2k-echo-demo-assets.s3.amazonaws.com/resources/0708330741_437g0073%2001-39-32.mp4" type='video/mp4'>-->
+    <!--<source src="http://www.streambox.fr/playlists/x36xhzz/x36xhzz.m3u8"-->
+            <!--type="application/x-mpegURL">-->
+    <!--<source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>-->
+
+<!--</video>-->
+
+
+<!--<script>-->
+    <!--var player = videojs('my_video_1');-->
+    <!--var aspectRatio = 264/640;-->
+    <!--var idtouse = player.id();-->
+    <!--function resizeVideoJS(){-->
+        <!--var widthcalc = document.getElementById(idtouse).parentElement.offsetWidth;-->
+        <!--player.width(widthcalc);-->
+        <!--player.height( widthcalc * aspectRatio );-->
+
+    <!--}-->
+
+    <!--// Initialize resizeVideoJS()-->
+    <!--resizeVideoJS();-->
+    <!--// Then on resize call resizeVideoJS()-->
+    <!--window.onresize = resizeVideoJS;-->
+
+    <!--player.markers({-->
+        <!--markerStyle: {-->
+            <!--'width':'7px',-->
+            <!--'border-radius': '30%',-->
+            <!--'background-color': 'red'-->
+        <!--},-->
+        <!--markerTip:{-->
+            <!--display: true,-->
+            <!--text: function(marker) {-->
+                <!--return "Break: "+ marker.text;-->
+            <!--},-->
+            <!--time: function(marker) {-->
+                <!--return marker.time;-->
+            <!--}-->
+        <!--},-->
+        <!--breakOverlay:{-->
+            <!--display: true,-->
+            <!--displayTime: 60,-->
+            <!--style:{-->
+                <!--'width':'100%',-->
+                <!--'height': '20%',-->
+                <!--'background-color': 'rgba(0,0,0,0.7)',-->
+                <!--'color': 'white',-->
+                <!--'font-size': '17px'-->
+            <!--},-->
+            <!--text: function(marker) {-->
+                <!--return "Break overlay: " + marker.overlayText;-->
+            <!--}-->
+        <!--},-->
+        <!--onMarkerClick: function(marker) {alert('onMarkerClick')},-->
+        <!--onMarkerReached: function(marker) {-->
+            <!--player.pause();-->
+
+            <!--//something changes where you need to disable:-->
+            <!--//player.disableProgress.disable();-->
+            <!--player.controls(false);-->
+            <!--setTimeout(function(){-->
+
+                <!--//some awesome event happens when you need to enable:-->
+                <!--// player.disableProgress.enable()-->
+                <!--player.controls(true);-->
+                <!--player.play();-->
+                <!--alert("Hello");-->
+            <!--}, 5000);-->
+        <!--},-->
+        <!--markers: [{-->
+            <!--time: 1,-->
+            <!--text: "marker",-->
+            <!--overlayText: 'overlay',-->
+            <!--class: 'custom-marker'-->
+        <!--},{-->
+            <!--time: 9,-->
+            <!--text: "marker2",-->
+            <!--overlayText: 'overlay222',-->
+            <!--class: 'custom-marker'-->
+        <!--}]-->
+    <!--});-->
+
+
+
+
+<!--</script>-->
+<!--<script>-->
+    <!--//player.disableProgress();-->
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
 <html>
 <head>
     <title>Sample App</title>

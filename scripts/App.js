@@ -9,7 +9,7 @@ export default class App extends Component {
 	  autoplay: false,
 	  controls: true,
 	  sources: [{
-	    src: 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4',
+	    src: 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', //'http://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8','application/x-mpegURL'
 	    type: 'video/mp4'
 	  }]
 	}
